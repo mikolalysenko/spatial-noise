@@ -2,7 +2,9 @@ spatial-noise
 =============
 Spatially determinisitc n-dimensional noise generators.  Useful for things like games, procedural generation and quick testing of numerical algorithms.
 
-<img src=https://raw.github.com/mikolalysenko/spatial-noise/master/images/noise2d.png>
+[<img src=https://raw.github.com/mikolalysenko/spatial-noise/master/images/noise2d.png>](http://mikolalysenko.github.io/spatial-noise/)
+
+[Try it yourself in your browser.](http://mikolalysenko.github.io/spatial-noise/)
 
 ## Install
 
