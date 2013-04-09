@@ -1,0 +1,46 @@
+{
+  "name": "spatial-noise",
+  "version": "0.0.0",
+  "description": "Spatiall determinisitic random noise generators",
+  "main": "prng.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "float-bits": "~0.0.0",
+    "hash-int": "~0.0.0",
+    "raf": "~0.0.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/spatial-noise.git"
+  },
+  "keywords": [
+    "noise",
+    "spatial",
+    "3d",
+    "2d",
+    "1d",
+    "ND",
+    "random",
+    "procedural",
+    "generation",
+    "hash",
+    "float",
+    "double",
+    "integer",
+    "coordinate",
+    "4d",
+    "seed"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "dd57e33d790670151668a7e71b49d5fe9d00539f"
+}
