@@ -15,15 +15,6 @@ Spatially determinisitc n-dimensional noise generators.  Useful for things like 
 ```javascript
 var sn = require("spatial-noise")
 
-//Gnerate some 
-
-```
-
-## API
-
-```javascript
-var sn = require("spatial-noise")
-
 //Generate noise values on a grid
 for(var i=0; i<10; ++i) {
   for(var j=0; j<10; ++j) {
@@ -36,6 +27,12 @@ var t = sn.noise4d(10.01, 0.5, 10.0, Date.now())
 
 //You can also use floating point precision, which is slightly faster
 var s = sn.noise2f(5, 6)
+```
+
+## API
+
+```javascript
+var sn = require("spatial-noise")
 ```
 
 ### Double Precision
