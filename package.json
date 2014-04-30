@@ -1,21 +1,21 @@
 {
   "name": "spatial-noise",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Spatially deterministic noise generators",
   "main": "prng.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "float-bits": "~0.0.0",
-    "hash-int": "~0.0.0"
+    "float-bits": "^1.0.0",
+    "hash-int": "^1.0.0"
   },
   "devDependencies": {
     "raf": "~0.0.1",
-    "tap": "~0.4.1"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",

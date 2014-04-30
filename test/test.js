@@ -1,6 +1,6 @@
 var sn = require("../prng.js")
 
-require("tap").test("prng test", function(t) {
+require("tape")("prng test", function(t) {
 
   t.equals(typeof sn(0), "number")
   t.equals(sn(0), sn.noise1d(0))
